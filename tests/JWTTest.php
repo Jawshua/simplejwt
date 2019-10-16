@@ -50,7 +50,7 @@ class JWTTest extends \PHPUnit_Framework_TestCase {
 
         $set->add(new Keys\ECKey([
             "kty" => "EC",
-            "crv" => "P-256K",
+            "crv" => "secp256k1",
             "x" => "QGVPYUfFqCwBeaapsTbrtQZFU5h0EXBO8iEzH3pUz-c",
             "y" => "3BZVYSHcdZMkWtnnenhAiCXdWJyVGEMKMECIdzVD11U",
             "d" => "jA_zoAn0BhF0M7x8A3zZtWuFXI9U-A1jAGXjTKHsMkY",
